@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div class="task-container">
+    <div class="column-container todo-container">К ВЫПОЛНЕНИЮ
+      <div class="todo-tasks"></div>
+      <div id="todo-new-task" class="new-task-form">
+        <button type="button" class="new-task-btn">+ Новая задача</button>
+      </div>
+      <form id="todo-add-task" class="add-task-form visually-hidden">
+        <div>
+          <textarea name="add-task" class="add-task-input" required></textarea>
+          <button type="submit" class="add-task-btn">Добавить задачу</button>
+          <button type="reset" class="add-cancel-btn"></button>
+        </div>
+      </form>
+    </div>
+    <div class="column-container inprogress-container">В РАБОТЕ
+      <div class="inprogress-tasks"></div>
+      <div id="inprogress-new-task" class="new-task-form">
+        <button type="button" class="new-task-btn">+ Новая задача</button>
+      </div>
+      <form id="inprogress-add-task" class="add-task-form visually-hidden">
+        <div>
+          <textarea name="add-task" class="add-task-input" required></textarea>
+          <button type="submit" class="add-task-btn">Добавить задачу</button>
+          <button type="reset" class="add-cancel-btn"></button>
+        </div>
+      </form>
+    </div>
+    <div class="column-container done-container">ВЫПОЛНЕНЫ
+      <div class="done-tasks"></div>
+      <div id="done-new-task" class="new-task-form">
+        <button type="button" class="new-task-btn">+ Новая задача</button>
+      </div>
+      <form id="done-add-task" class="add-task-form visually-hidden">
+        <div>
+          <textarea name="add-task" class="add-task-input" required></textarea>
+          <button type="submit" class="add-task-btn">Добавить задачу</button>
+          <button type="reset" class="add-cancel-btn"></button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
